@@ -1,7 +1,27 @@
 aid: slidebean
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slidebean.png
 name: Slidebean
-description: Slidebean is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Slidebean is a pitch deck and financial modeling platform for startup
+  founders. It combines AI-powered presentation software that auto-designs
+  investor-ready slides with professional pitch deck design services and
+  financial modeling assistance for fundraising. Founders use Slidebean to
+  build, refine, and share pitch decks, model their startup finances, and
+  prepare for investor conversations. As of this enrichment pass Slidebean
+  operates as a consumer/SMB SaaS product and does not publish a public
+  developer API, OpenAPI specification, SDKs, or developer portal; its GitHub
+  organization contains only forks and small internal JavaScript utilities.
 url: https://raw.githubusercontent.com/api-evangelist/slidebean/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Presentation Software
+- Pitch Deck
+- Financial Modeling
+- Startups
+- Fundraising
+- SaaS
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://slidebean.com
+- type: Pricing
+  url: https://slidebean.com/pricing
+- type: Blog
+  url: https://slidebean.com/blog
+- type: Support
+  url: https://slidebean.com/knowledge-base
+- type: SignUp
+  url: https://app.slidebean.com
+- type: Login
+  url: https://app.slidebean.com
+- type: TermsOfService
+  url: https://slidebean.com/terms
+- type: PrivacyPolicy
+  url: https://slidebean.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/slidebean
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
